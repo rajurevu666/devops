@@ -30,3 +30,42 @@ sudo systemctl start git
 https://github.com/rajurevu666/devops.githttps://github.com/rajurevu666/devops.git
 cat https://github.com/rajurevu666/devops.git
 sudo cat https://github.com/rajurevu666/devops.git
+sudo yum update
+sudo git --version
+git branch
+clear
+ll
+la -a
+ls -a
+git init .
+ls -al
+touch file1
+ls
+cat >> file1
+ls
+cat file1
+gitstatus
+git status
+git add file1
+git commit -m "first commit file1" file1
+clear
+git log
+git status
+cat >>file2
+ll
+ls -al
+git add .
+git commit -m " create file2" .
+git status 
+git log
+clear
+git branch
+ll
+git remote add origion https://github.com/rajurevu666/devops.git
+git push -u origion master
+git remote add origion https://github.com/rajurevu666/git-repository.git
+git push -u origion master
+ https://github.com/rajurevu666/devops/pull/new/master
+sudo yum update
+ll
+git branch
